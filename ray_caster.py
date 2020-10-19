@@ -103,7 +103,7 @@ screen = pygame.display.set_mode((1000, 500))
 r = RayCaster(screen)
 
 r.set_color((128, 0, 0))
-r.load_map('./RC1/map.txt')
+r.load_map('./map.txt')
 
 isRunning = True
 
